@@ -1,0 +1,181 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: "Times New Roman", Times, serif; 
+  background-color: darkgrey;  
+}  
+.container {  
+    padding: 50px;  
+  background-color: grey;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: cadetblue;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 50%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+  
+
+
+}  
+</style> 
+
+
+ 
+</head>  
+<body>  
+<form name="Registration" action="processForm.asp" method="post">  
+  <div class="container">  
+  <center>  <h1> Gateways Registration Form </h1> </center>  
+  <hr>  
+  <label> Firstname: </label>   
+<input type="text" name="firstname" id="firstname" placeholder= "Enter Firstname" size="15" required />   
+<label> Lastname: </label>    
+<input type="text" name="lastname" id="lastname" placeholder="Enter Lastname" size="15"required />   
+<div>  
+
+<label><b>College/University Name:</b></label>   
+<input type="text" id="cname"  name="cname" placeholder= "Enter College/University Name" size="40" required >
+
+<br><br>
+<label>   
+Branch :  
+</label>   
+  
+<select id="branch" >  
+<option value="">Choose branch</option>  
+<option value="computer science">Computer Science</option>  
+<option value="computer applications">Computer Applications</option>  
+<option value="data science">Data Science</option>  
+</select>  
+</div>  
+<br>
+<label> Age: </label>   
+<input type="number" id="age" name="age" placeholder="Enter Age"  required>
+ 
+<br><br>
+<label>   
+Phone :  
+</label>  
+<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2">   
+<input type="text" id="phoneno"  name="phoneno" placeholder="Enter Phone Number" size="10" required>   
+Current Address :  
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+</textarea>  
+  <label> State: </label>   
+<input type="text" id="state"  name="state" placeholder= "Enter State" size="30" required >
+
+ <label for="email"><b>Email</b></label>  
+ <input type="text" id="email" placeholder="Enter Email" name="email" required>  
+ 
+  <label><b>Username:</b></label>   
+<input type="text" id="username" name="username" placeholder= "Enter Username" size="30" required >
+  
+    <label for="psw"><b>Password:</b></label>  
+    <input type="password" id="psw" placeholder="Enter Password" name="psw" required>  
+  
+    <label for="psw-repeat"><b>Re-type Password:</b></label>  
+    <input type="password" id="cpsw" placeholder="Retype Password" name="cpsw" required>  
+    <center><button type="submit" id="btnRegister" name="btnRegister" class="registerbtn" onclick="validation()">Register</button></center>
+</form>  
+
+<script>
+	funtion validation(){
+		//var firstname = document.forms["Registration"]["firstame"];
+		//var lastname = document.forms["Registration"]["lastame"];
+		
+		var firstname = document.getElementById('firstname').value;
+		var lastname = document.getElementById('lastname').value;
+		var username = document.getElementById('username').value;
+		var psw = document.getElementById('psw').value;
+		var cpsw = document.getElementById('cpsw').value;
+		var email = document.getElementById('email').value;
+		var phoneno = document.getElementById('phoneno').value;
+		var usercheck = /^[A-Z a-z.]{3,}$/;
+		var passcheck = /^(?=.*[0-9])(?=.*[!@#$%^&*])[A-z a-z 0-9 !@#$%^&*]{8,16}&/;
+		var phonecheck = /^[6789][0-9]{9}$/;
+		var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+		
+		if(email.value.match(mailformat))
+		{
+			alert("Valid email address!");
+			document.form1.text1.focus();
+			return true;
+		}
+		else
+		{
+			alert("You have entered an invalid email address!");
+			document.form1.text1.focus();
+			return false;
+		}
+		
+		if(usercheck.test(username)){
+			document.getElementById('username').innerHTML=" ";
+		}
+		else{
+			document.getElementById('username').innerHTML="username invalid";
+			return false;
+		}
+		if(passcheck.test(psw)){
+			document.getElementById('psw').innerHTML=" ";
+		}
+		else{
+			document.getElementById('psw').innerHTML="password invalid";
+			return false;
+		}
+		if(cpsw.test(psw)){
+			document.getElementById('cpsw').innerHTML=" ";
+		}
+		else{
+			document.getElementById('cpsw').innerHTML="password not matching";
+			return false;
+		}
+		if(emailcheck.test(email)){
+			document.getElementById('email').innerHTML=" ";
+		}
+		else{
+			document.getElementById('email').innerHTML="email invalid";
+			return false;
+		}
+		if(phonecheck.test(psw)){
+			document.getElementById('phoneno').innerHTML=" ";
+		}
+		else{
+			document.getElementById('phoneno').innerHTML="phone number invalid";
+			return false;
+		}
+		
+		return true;
+	}
+</script>
+</body>  
+</html>  
