@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="doctor.xsl"?>
+
+<Hospital>
+<Doctors>
+
+<Doctor DoctorID="Doctor101" WorksIn="_Nephrology">
+<DoctorName>Priscilla Arnold</DoctorName>
+<Speciality>Nephrologist</Speciality>
+<Relantionship RelantionshipType="Trainee"/>
+<DoctorContact>
+<DoctorAddress>326 Willow Street Rowlett, TX 75088</DoctorAddress>
+<DoctorPhone>202-555-0168</DoctorPhone>
+</DoctorContact>
+</Doctor>
+
+<Doctor DoctorID="Doctor102" WorksIn="_Nephrology">
+<DoctorName>JennaFloyd</DoctorName>
+<Speciality>Nephrologist</Speciality>
+<Relantionship RelantionshipType="Permanent"/>
+<DoctorContact>
+<DoctorAddress>68 Spring Street Marysville, OH 43040</DoctorAddress>
+<DoctorPhone>202-555-0101</DoctorPhone>
+<DoctorPhone>202-555-0122</DoctorPhone>
+</DoctorContact>
+</Doctor>
+
+<Doctor DoctorID="Doctor103" WorksIn="_Nephrology">
+<DoctorName>Ollie Holloway</DoctorName>
+<Speciality>Nephrologist</Speciality>
+<Relantionship RelantionshipType="Visiting"/>
+<DoctorContact>
+<DoctorAddress>50 Water Street Gulfport, MS 39503</DoctorAddress>
+<DoctorPhone>202-555-0154</DoctorPhone>
+</DoctorContact>
+</Doctor>
+
+<Doctor DoctorID="Doctor117" WorksIn="_Nephrology" HeadOfDept="_Nephrology">
+<DoctorName>Dennis Young</DoctorName>
+<Speciality>Nephrologist</Speciality>
+<Relantionship RelantionshipType="Permanent"/>
+<DoctorContact>
+<DoctorAddress>986 Lexington Court Tacoma, WA 98444</DoctorAddress>
+<DoctorPhone>202-555-0128</DoctorPhone>
+<DoctorPhone>202-555-0144</DoctorPhone>
+</DoctorContact>
+</Doctor>
+
+<Doctor DoctorID="Doctor104" WorksIn="_Microbiology">
+<DoctorName>Marlon Carpenter</DoctorName>
+<Speciality>Microbiologist</Speciality>
+<Relantionship RelantionshipType="Permanent"/>
+<DoctorContact>
+<DoctorAddress>146 Route 9 Media, PA 19063</DoctorAddress>
+<DoctorPhone>202-555-0144</DoctorPhone>
+<DoctorPhone>202-555-0199</DoctorPhone>
+</DoctorContact>
+</Doctor>
+
+<Doctor DoctorID="Doctor105" WorksIn="_Microbiology">
+<DoctorName>Clayton Lynch</DoctorName>
+<Speciality>Microbiologist</Speciality>
+<Relantionship RelantionshipType="Visiting"/>
+<DoctorContact>
+<DoctorAddress>769 Sycamore Street Niles, MI 49120</DoctorAddress>
+<DoctorPhone>202-555-0180</DoctorPhone>
+</DoctorContact>
+</Doctor>
+
+<Doctor DoctorID="Doctor118" WorksIn="_Microbiology" HeadOfDept="_Microbiology">
+<DoctorName>Barbara Scott</DoctorName>
+<Speciality>Microbiologist</Speciality>
+<Relantionship RelantionshipType="Permanent"/>
+<DoctorContact>
+<DoctorAddress>621 Ridge Avenue Elkhart, IN 46514</DoctorAddress>
+<DoctorPhone>202-555-0134</DoctorPhone>
+</DoctorContact>
+</Doctor>
+
+<Doctor DoctorID="Doctor106" WorksIn="_Oncology">
+<DoctorName>JoePowell</DoctorName>
+<Speciality>Oncologist</Speciality>
+<Relantionship RelantionshipType="Permanent"/>
+<DoctorContact>
+<DoctorAddress>230 Durham Road Allentown, PA 18102</DoctorAddress>
+<DoctorPhone>202-555-0108</DoctorPhone>
+<DoctorPhone>202-555-0158</DoctorPhone>
+<DoctorPhone>202-555-0151</DoctorPhone>
+</DoctorContact>
+</Doctor>
+
+<Doctor DoctorID="Doctor107" WorksIn="_Oncology">
+<DoctorName>Anne Griffin</DoctorName>
+<Speciality>Oncologist</Speciality>
+<Relantionship RelantionshipType="Trainee"/>
+<DoctorContact>
+<DoctorAddress>755 Front Street South Vincentown, NJ 08088</DoctorAddress>
+<DoctorPhone>202-555-0105</DoctorPhone>
+</DoctorContact>
+</Doctor>
+
+<Doctor DoctorID="Doctor119" WorksIn="_Oncology">
+<DoctorName>Frank Murphy</DoctorName>
+<Speciality>Oncologist</Speciality>
+<Relantionship RelantionshipType="Permanent"/>
+<DoctorContact>
+<DoctorAddress>15 College Avenue Great Falls, MT 59404</DoctorAddress>
+<DoctorPhone>202-555-0187</DoctorPhone>
+</DoctorContact>
+</Doctor>
+
+<Doctor DoctorID="Doctor120" WorksIn="_Oncology" HeadOfDept="_Oncology">
+<DoctorName>Brandon Smith</DoctorName>
+<Speciality>Oncologist</Speciality>
+<Relantionship RelantionshipType="Permanent"/>
+<DoctorContact>
+<DoctorAddress>309 Aspen Drive West Roxbury, MA 02132</DoctorAddress>
+<DoctorPhone>202-555-0111</DoctorPhone>
+</DoctorContact>
+</Doctor>
+
+<Doctor DoctorID="Doctor108" WorksIn="_Cardiology">
+<DoctorName>Fred Hill</DoctorName>
+<Speciality>Cardiologist</Speciality>
+<Relantionship RelantionshipType="Permanent"/>
+<DoctorContact>
+<DoctorAddress>374 Westminster Drive Florence, SC 29501</DoctorAddress>
+<DoctorPhone>202-555-0111</DoctorPhone>
+<DoctorPhone>202-555-0190</DoctorPhone>
+</DoctorContact>
+</Doctor>
+
+<Doctor DoctorID="Doctor109" WorksIn="_Cardiology">
+<DoctorName>Terry Thomas</DoctorName>
+<Speciality>Cardiologist</Speciality>
+<Relantionship RelantionshipType="Trainee"/>
+<DoctorContact>
+<DoctorAddress>418 Belmont Avenue Canyon Country, CA 91387</DoctorAddress>
+<DoctorPhone>202-555-0135</DoctorPhone>
+</DoctorContact>
+</Doctor>
+
+<Doctor DoctorID="Doctor110" WorksIn="_Cardiology">
+<DoctorName>Louise Garcia</DoctorName>
+<Speciality>Cardiologist</Speciality>
+<Relantionship RelantionshipType="Visiting"/>
+<DoctorContact>
+<DoctorAddress>900 York Road Newark, NJ 07103</DoctorAddress>
+<DoctorPhone>202-555-0120</DoctorPhone>
+</DoctorContact>
+</Doctor>
+
+<Doctor DoctorID="Doctor121" WorksIn="_Cardiology" HeadOfDept="_Cardiology">
+<DoctorName>Gary Patterson</DoctorName>
+<Speciality>Cardiologist</Speciality>
+<Relantionship RelantionshipType="Permanent"/>
+<DoctorContact>
+<DoctorAddress>924 2nd Street New Castle, PA 16101</DoctorAddress>
+<DoctorPhone>202-555-0154</DoctorPhone>
+</DoctorContact>
+</Doctor>
+
+<Doctor DoctorID="Doctor111" WorksIn="_General_Surgery">
+<DoctorName>Samuel Gonzalez</DoctorName>
+<Speciality>Surgerist</Speciality>
+<Relantionship RelantionshipType="Permanent"/>
+<DoctorContact>
+<DoctorAddress>79 North Street Mishawaka, IN 46544</DoctorAddress>
+<DoctorPhone>202-555-0186</DoctorPhone>
+<DoctorPhone>202-555-0170</DoctorPhone>
+</DoctorContact>
+</Doctor>
+
+<Doctor DoctorID="Doctor112" WorksIn="_General_Surgery">
+<DoctorName>PhillipNelson</DoctorName>
+<Speciality>Surgerist</Speciality>
+<Relantionship RelantionshipType="Permanent"/>
+<DoctorContact>
+<DoctorAddress>973 Manor Drive Mcdonough, GA 30252</DoctorAddress>
+<DoctorPhone>202-555-0104</DoctorPhone>
+</DoctorContact>
+</Doctor>
+
+<Doctor DoctorID="Doctor113" WorksIn="_Walk_in_Clinic" HeadOfDept="_Walk_in_Clinic">
+<DoctorName>KathleenPerry</DoctorName>
+<Speciality>General Doctor</Speciality>
+<Relantionship RelantionshipType="Permanent"/>
+<DoctorContact>
+<DoctorAddress>830 Ashley Court Evansville, IN 47711</DoctorAddress>
+<DoctorPhone>202-555-0166</DoctorPhone>
+<DoctorPhone>202-555-0155</DoctorPhone>
+</DoctorContact>
+</Doctor>
+
+<Doctor DoctorID="Doctor114" WorksIn="_Walk_in_Clinic">
+<DoctorName>JaniceWilliams</DoctorName>
+<Speciality>General Doctor</Speciality>
+<Relantionship RelantionshipType="Permanent"/>
+<DoctorContact>
+<DoctorAddress>577 13th Street Chesterfield, VA 23832</DoctorAddress>
+<DoctorPhone>202-555-0198</DoctorPhone>
+</DoctorContact>
+</Doctor>
+
+<Doctor DoctorID="Doctor115" WorksIn="_Walk_in_Clinic">
+<DoctorName>Evelyn Cooper</DoctorName>
+<Speciality>General Doctor</Speciality>
+<Relantionship RelantionshipType="Trainee"/>
+<DoctorContact>
+<DoctorAddress>311 Route 44 Stamford, CT 06902</DoctorAddress>
+<DoctorPhone>202-555-0136</DoctorPhone>
+</DoctorContact>
+</Doctor>
+
+<Doctor DoctorID="Doctor116" WorksIn="_Walk_in_Clinic">
+<DoctorName>RoyJohnson</DoctorName>
+<Speciality>General Doctor</Speciality>
+<Relantionship RelantionshipType="Permanent"/>
+<DoctorContact>
+<DoctorAddress>355 Cambridge Road Havertown, PA 19083</DoctorAddress>
+<DoctorPhone>202-555-0110</DoctorPhone>
+</DoctorContact>
+</Doctor>
+
+</Doctors>
+</Hospital>

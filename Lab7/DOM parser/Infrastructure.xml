@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wings>
+<Wing wingID="Wing101">
+<Departments>
+<Department DeptartID="_Walk_in_Clinic">
+<DepartmentName>Walk In Clinic</DepartmentName>
+<DepartmentPhone>202-555-0154</DepartmentPhone>
+</Department>
+<Department DeptartID="_Nephrology" useWard="Wing101Ward101">
+<DepartmentName>Nephrology</DepartmentName>
+<DepartmentPhone>202-555-0199</DepartmentPhone>
+</Department>
+<Department DeptartID="_Microbiology">
+<DepartmentName>Microbiology</DepartmentName>
+<DepartmentPhone>202-555-0189</DepartmentPhone>
+</Department>
+</Departments>
+<Wards>
+<Ward WardID="Wing101Ward106">
+<Rooms>
+<Room RoomSize="2" RoomID="Wing101Ward106Room101">
+<Beds>
+<Bed BedSize="2" BedID="Wing101Ward106Room101Bed101"/>
+<Bed BedSize="2" BedID="Wing101Ward106Room101Bed102"/>
+</Beds>
+</Room>
+</Rooms>
+</Ward>
+<Ward WardID="Wing101Ward101">
+<Rooms>
+<Room RoomID="Wing101Ward101Room101" RoomSize="3">
+<Beds>
+<Bed BedID="Wing101Ward101Room101Bed101" BedSize="1"/>
+<Bed BedID="Wing101Ward101Room101Bed102" BedSize="2"/>
+<Bed BedID="Wing101Ward101Room101Bed103" BedSize="1"/>
+</Beds>
+</Room>
+<Room RoomID="Wing101Ward101Room102" RoomSize="3">
+<Beds>
+<Bed BedID="Wing101Ward101Room102Bed101" BedSize="1"/>
+<Bed BedID="Wing101Ward101Room102Bed102" BedSize="2"/>
+<Bed BedID="Wing101Ward101Room102Bed103" BedSize="2"/>
+</Beds>
+</Room>
+<Room RoomID="Wing101Ward101Room103" RoomSize="6">
+<Beds>
+<Bed BedID="Wing101Ward101Room103Bed101" BedSize="1"/>
+<Bed BedID="Wing101Ward101Room103Bed102" BedSize="2"/>
+<Bed BedID="Wing101Ward101Room103Bed103" BedSize="2"/>
+<Bed BedID="Wing101Ward101Room103Bed104" BedSize="1"/>
+<Bed BedID="Wing101Ward101Room103Bed105" BedSize="2"/>
+<Bed BedID="Wing101Ward101Room103Bed106" BedSize="2"/>
+</Beds>
+</Room>
+</Rooms>
+</Ward>
+</Wards>
+</Wing>
+<Wing wingID="Wing102">
+<Departments>
+<Department DeptartID="_Oncology" useWard="Wing102Ward102">
+<DepartmentName>Oncology</DepartmentName>
+<DepartmentPhone>202-555-0100</DepartmentPhone>
+</Department>
+</Departments>
+<Wards>
+<Ward WardID="Wing102Ward102">
+<Rooms>
+<Room RoomID="Wing102Ward102Room101" RoomSize="3">
+<Beds>
+<Bed BedSize="1" BedID="Wing102Ward102Room101Bed101"/>
+<Bed BedSize="1" BedID="Wing102Ward102Room101Bed102"/>
+<Bed BedSize="1" BedID="Wing102Ward102Room101Bed103"/>
+</Beds>
+</Room>
+<Room RoomID="Wing102Ward102Room102" RoomSize="2">
+<Beds>
+<Bed BedSize="1" BedID="Wing102Ward102Room102Bed101"/>
+<Bed BedSize="1" BedID="Wing102Ward102Room102Bed102"/>
+</Beds>
+</Room>
+<Room RoomID="Wing102Ward102Room103" RoomSize="5">
+<Beds>
+<Bed BedSize="2" BedID="Wing102Ward102Room103Bed101"/>
+<Bed BedSize="2" BedID="Wing102Ward102Room103Bed102"/>
+<Bed BedSize="2" BedID="Wing102Ward102Room103Bed103"/>
+<Bed BedSize="2" BedID="Wing102Ward102Room103Bed104"/>
+<Bed BedSize="1" BedID="Wing102Ward102Room103Bed105"/>
+</Beds>
+</Room>
+</Rooms>
+</Ward>
+</Wards>
+</Wing>
+<Wing wingID="Wing103">
+<Departments>
+<Department DeptartID="_Cardiology" useWard="Wing103Ward101">
+<DepartmentName>Cardiology</DepartmentName>
+<DepartmentPhone>202-555-0168</DepartmentPhone>
+</Department>
+<Department DeptartID="_General_Surgery" useWard="Wing103Ward102">
+<DepartmentName>General Surgery</DepartmentName>
+<DepartmentPhone>202-555-0101</DepartmentPhone>
+</Department>
+</Departments>
+<Wards>
+<Ward WardID="Wing103Ward101">
+<Rooms>
+<Room RoomID="Wing103Ward101Room101" RoomSize="2">
+<Beds>
+<Bed BedSize="2" BedID="Wing103Ward101Room101Bed101"/>
+<Bed BedSize="2" BedID="Wing103Ward101Room101Bed102"/>
+</Beds>
+</Room>
+</Rooms>
+</Ward>
+<Ward WardID="Wing103Ward102">
+<Rooms>
+<Room RoomID="Wing103Ward102Room101" RoomSize="4">
+<Beds>
+<Bed BedSize="1" BedID="Wing103Ward102Room101Bed101"/>
+<Bed BedSize="2" BedID="Wing103Ward102Room101Bed102"/>
+<Bed BedSize="1" BedID="Wing103Ward102Room101Bed103"/>
+<Bed BedSize="1" BedID="Wing103Ward102Room101Bed104"/>
+</Beds>
+</Room>
+<Room RoomID="Wing103Ward102Room102" RoomSize="3">
+<Beds>
+<Bed BedSize="1" BedID="Wing103Ward102Room102Bed101"/>
+<Bed BedSize="2" BedID="Wing103Ward102Room102Bed102"/>
+<Bed BedSize="2" BedID="Wing103Ward102Room102Bed103"/>
+</Beds>
+</Room>
+</Rooms>
+</Ward>
+</Wards>
+</Wing>
+</Wings>

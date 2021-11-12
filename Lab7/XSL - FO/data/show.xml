@@ -1,0 +1,25 @@
+<CollectionOfItems>
+
+<items>
+<title Id="PATIENT ID" name="NAME" gender="GENDER" age="AGE"/>
+<title Id="Patient101" name="Angela Washington" gender="Female" age="44"/>
+<title Id="Patient102" name="Diana Foster" gender="Female" age="23"/>
+<title Id="Patient103" name="Patricia Henderson" gender="Female" age="11"/>
+</items>
+
+<items>
+<title ID="DOCTOR ID" Name="NAME" Gender="SPECIALITY"/>
+<title ID="Doctor101" Name="Priscilla Arnold" Gender="Nephrologist"/>
+<title ID="Doctor102" Name="Jenna Floyd" Gender="Microbiologist"/>
+<title ID="Doctor103" Name="Clayton Lynch" Gender="Oncologist"/>
+</items>
+<items>
+<title id="NURSE ID" nname="NAME" ngender="WORKS IN"/>
+<title id="Nurse101" nname="James Harris" ngender="_Microbiology"/>
+<title id="Nurse102" nname="Ann Perry" ngender="_Microbiology"/>
+<title id="Nurse103" nname="Rachel Carter" ngender="_Nephrology"/>
+<title id="Nurse104" nname="Margaret Martin" ngender="_Nephrology"/>
+<title id="Nurse105" nname="Mary Clark" ngender="_Oncologist"/>
+<title id="Nurse106" nname="Stephen Howard" ngender="_Oncologist"/>
+</items>
+</CollectionOfItems>

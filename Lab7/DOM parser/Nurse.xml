@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hospital>
+<Nurses>
+<Nurse NurseID="Nurse101" WorksIn="_Microbiology">
+<NurseName>JamesHarris</NurseName>
+<NurseContact>
+<NurseAddress>840 Willow Lane Milton, MA 02186</NurseAddress>
+<NursePhone>202-555-0149</NursePhone>
+<NursePhone>202-555-0147</NursePhone>
+</NurseContact>
+</Nurse>
+<Nurse NurseID="Nurse102" WorksIn="_Microbiology">
+<NurseName>AnnPerry</NurseName>
+<NurseContact>
+<NurseAddress>921 Canterbury Road Massapequa, NY 11758</NurseAddress>
+<NursePhone>202-555-0106</NursePhone>
+</NurseContact>
+</Nurse>
+<Nurse NurseID="Nurse103" WorksIn="_Nephrology" InspectWard="Wing101Ward101">
+<NurseName>RachelCarter</NurseName>
+<NurseContact>
+<NurseAddress>755 Colonial Avenue Astoria, NY 11102</NurseAddress>
+<NursePhone>202-555-0148</NursePhone>
+</NurseContact>
+</Nurse>
+<Nurse NurseID="Nurse104" WorksIn="_Nephrology">
+<NurseName>Margaret Martin</NurseName>
+<NurseContact>
+<NurseAddress>564 5th Street South Clinton, MD 20735</NurseAddress>
+<NursePhone>202-555-0113</NursePhone>
+</NurseContact>
+</Nurse>
+<Nurse NurseID="Nurse114" WorksIn="_Nephrology">
+<NurseName>Mary Clark</NurseName>
+<NurseContact>
+<NurseAddress>840 Augusta Drive Torrance, CA 90505</NurseAddress>
+<NursePhone>202-555-0174</NursePhone>
+</NurseContact>
+</Nurse>
+<Nurse NurseID="Nurse105" WorksIn="_Oncology">
+<NurseName>Stephen Howard</NurseName>
+<NurseContact>
+<NurseAddress>564 Washington Avenue Venice, FL 34293</NurseAddress>
+<NursePhone>202-555-0102</NursePhone>
+</NurseContact>
+</Nurse>
+<Nurse NurseID="Nurse106" WorksIn="_Oncology">
+<NurseName>Joan Scott</NurseName>
+<NurseContact>
+<NurseAddress>61 Oak Avenue Tacoma, WA 98444</NurseAddress>
+<NursePhone>202-555-0118</NursePhone>
+</NurseContact>
+</Nurse>
+<Nurse NurseID="Nurse115" WorksIn="_Oncology">
+<NurseName>Juan Bailey</NurseName>
+<NurseContact>
+<NurseAddress>776 Elm Street King Of Prussia, PA 19406</NurseAddress>
+<NursePhone>202-555-0182</NursePhone>
+</NurseContact>
+</Nurse>
+<Nurse NurseID="Nurse117" WorksIn="_Oncology">
+<NurseName>Nancy Taylor</NurseName>
+<NurseContact>
+<NurseAddress>198 Willow Street Homestead, FL 33030</NurseAddress>
+<NursePhone>202-555-0142</NursePhone>
+</NurseContact>
+</Nurse>
+<Nurse NurseID="Nurse107" WorksIn="_Cardiology">
+<NurseName>Andrew Gray</NurseName>
+<NurseContact>
+<NurseAddress>593 Elm Street Chesapeake, VA 23320</NurseAddress>
+<NursePhone>202-555-0153</NursePhone>
+</NurseContact>
+</Nurse>
+<Nurse NurseID="Nurse108" WorksIn="_Cardiology">
+<NurseName>DonaldCook</NurseName>
+<NurseContact>
+<NurseAddress>871 Roosevelt Avenue Flint, MI 48504</NurseAddress>
+<NursePhone>202-555-0152</NursePhone>
+</NurseContact>
+</Nurse>
+<Nurse NurseID="Nurse118" WorksIn="_Cardiology">
+<NurseName>Fred Hill</NurseName>
+<NurseContact>
+<NurseAddress>241 York Street Torrington, CT 06790</NurseAddress>
+<NursePhone>202-555-0148</NursePhone>
+</NurseContact>
+</Nurse>
+<Nurse NurseID="Nurse109" WorksIn="_General_Surgery">
+<NurseName>Emily Bell</NurseName>
+<NurseContact>
+<NurseAddress>752 Water Street Milton, MA 02186</NurseAddress>
+<NursePhone>202-555-0130</NursePhone>
+</NurseContact>
+</Nurse>
+<Nurse NurseID="Nurse110" WorksIn="_General_Surgery">
+<NurseName>Brandon Perez</NurseName>
+<NurseContact>
+<NurseAddress>426 Forest Avenue South Richmond Hill, NY 11419</NurseAddress>
+<NursePhone>202-555-0182</NursePhone>
+<NursePhone>202-555-0115</NursePhone>
+</NurseContact>
+</Nurse>
+<Nurse NurseID="Nurse119" WorksIn="_General_Surgery">
+<NurseName>JosephJones</NurseName>
+<NurseContact>
+<NurseAddress>481 James Street Lenoir, NC 28645</NurseAddress>
+<NursePhone>202-555-0103</NursePhone>
+</NurseContact>
+</Nurse>
+<Nurse NurseID="Nurse120" WorksIn="_General_Surgery">
+<NurseName>Melissa Barnes</NurseName>
+<NurseContact>
+<NurseAddress>141 Cemetery Road Hickory, NC 28601</NurseAddress>
+<NursePhone>202-555-0166</NursePhone>
+</NurseContact>
+</Nurse>
+<Nurse NurseID="Nurse111" WorksIn="_Walk_in_Clinic">
+<NurseName>Deborah Moore</NurseName>
+<NurseContact>
+<NurseAddress>493 Broadway New Castle, PA 16101</NurseAddress>
+<NursePhone>202-555-0180</NursePhone>
+</NurseContact>
+</Nurse>
+<Nurse NurseID="Nurse112" WorksIn="_Walk_in_Clinic">
+<NurseName>Marilyn Adams</NurseName>
+<NurseContact>
+<NurseAddress>444 Taylor Street Shelton, CT 06484</NurseAddress>
+<NursePhone>202-555-0145</NursePhone>
+</NurseContact>
+</Nurse>
+<Nurse NurseID="Nurse113" WorksIn="_Walk_in_Clinic">
+<NurseName>Carol Carter</NurseName>
+<NurseContact>
+<NurseAddress>32 5th Street Seymour, IN 47274</NurseAddress>
+<NursePhone>202-555-0174</NursePhone>
+</NurseContact>
+</Nurse>
+<Nurse NurseID="Nurse116" WorksIn="_Walk_in_Clinic">
+<NurseName>Louis Henderson</NurseName>
+<NurseContact>
+<NurseAddress>488 Route 44 Roy, UT 84067</NurseAddress>
+<NursePhone>202-555-0114</NursePhone>
+</NurseContact>
+</Nurse>
+</Nurses>
+</Hospital>
